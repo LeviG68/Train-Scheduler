@@ -63,7 +63,7 @@ $(document).ready(function(){
 
     var next = moment(nextTrain).format("hh:mm");
 
-    $("#table").append("<tr><td>" + trainName +"</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + next + "</td><td>" + minsTillTrain + "</td><tr></tr>");
+    $("#table").append("<tr><td>" + trainName +"</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + next + "</td><td>" + minsTillTrain + "</td></tr>");
   })   
     
 })
